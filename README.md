@@ -1,4 +1,4 @@
-# pyterastitcher_test
+# pyterastitcher test
 Minimal example to run terastitcher
 
 ## Steps
