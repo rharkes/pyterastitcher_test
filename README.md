@@ -1,2 +1,7 @@
 # pyterastitcher_test
-minimal example to run terastitcher
+Minimal example to run terastitcher
+
+## Steps
+* Generate the demo-data with ImageJ
+* Generate the .xml file with Python
+* Run the .xml with Terastitcher
