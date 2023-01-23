@@ -50,8 +50,8 @@ class teratif:
         return str(self.pth)
 
 
-tiffs = [teratif(tif, 1, int(int(tif.stem[4::])/378)) for tif in tiffs]
-tiffs.sort()
+tiffs = [teratif(tif, int(int(tif.stem[4::])/378), 1) for tif in tiffs]
+#tiffs.sort()
 stacks = etree.Element("STACKS")
 for tif in tiffs:  # for every file
     stack = etree.Element(
